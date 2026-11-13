@@ -32,7 +32,7 @@ test('userscript metadata is safe and release-ready', () => {
   assert.deepEqual(metadataValues('connect'), []);
 
   const expectedSourceUrl =
-    'https://raw.githubusercontent.com/noswimmingplease/therarbg-modern-theme/main/therarbg-modern-theme.user.js';
+    'https://raw.githubusercontent.com/cantwalkwontrun/therarbg-modern-theme/main/therarbg-modern-theme.user.js';
   assert.deepEqual(metadataValues('updateURL'), [expectedSourceUrl]);
   assert.deepEqual(metadataValues('downloadURL'), [expectedSourceUrl]);
 });
